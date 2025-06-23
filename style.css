@@ -190,6 +190,18 @@ a {
   text-decoration: none;
 }
 
+ul{
+  list-style-type:none;
+  font-size: var(--font-size-p);
+}
+
+a:hover, a:active{
+  color:darkblue;
+  border:solid 0.5 var(--apl-base-text-color-black);
+}
+a:link, a:visited{
+  color:var(--color-base-blue)
+}
 /* ------------------------------------------------------------ */
 /* ---- Text Properies - Classes ---- */
 
